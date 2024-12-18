@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+
+header, footer{
+    background-color: rgba(0, 0, 0, 0.481);
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+    font-size: large;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 20px;
+    color: darkgreen;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+.project1 {
+    background-color: #f8d7da41;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #f8d7da41;
+}
+
+.project2 {
+    background-color: #d4edda;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #c3e6cb;
+}
+
+.project3 {
+    background-color: #d1ecf1;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #bee5eb;
+}
+
+
+#about {
+    width: 100%;
+    height: 250px;
+    background: rgb(134,28,28);
+    background: linear-gradient(90deg, rgba(134,28,28,1) 0%, rgba(246,180,47,1) 0%, rgba(9,0,161,0.9360994397759104) 127%);
+    text-align: center;
+    padding: 20px;
+}
+
+#skills {
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+#skills ul li {
+    font-weight: bold;
+}
+
+
+#projects > h3 {
+    font-style: italic;
+}
+
+
+img[src] {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+nav a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+#skills ul li::before {
+    content: "⭐ ";
+}
+
+#testimonials {
+    background-color: #948d8d;
+    padding: 20px;
+    margin: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 20px;
+    padding: 10px;
+    border-left: 4px solid #ccc;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote footer {
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+}
